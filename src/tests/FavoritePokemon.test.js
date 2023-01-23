@@ -51,7 +51,5 @@ describe('03 - Teste o componente <FavoritePokemon.js/>', () => {
 
     const marketFavorites = screen.getByAltText(/pikachu is marked/i);
     expect(marketFavorites).toBeInTheDocument();
-
-    screen.logTestingPlaygroundURL();
   });
 });
