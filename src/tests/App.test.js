@@ -69,7 +69,6 @@ describe('01- Testes do Componente "App.js"', () => {
     act(() => {
       history.push('/hdfidd');
     });
-    screen.logTestingPlaygroundURL();
 
     expect(textEl).not.toBeInTheDocument();
   });
